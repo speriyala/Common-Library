@@ -1,0 +1,19 @@
+#%RAML 1.0
+title: mule-app-2
+version: v1
+description: first api to to test the common lib
+mediaType: application/json
+
+/health:
+  get:
+    responses:
+      200:
+        body:
+          type: object
+          example: 
+                  {
+                  success: true,
+                  Name: "mule-app-2",
+                  Time: "2023-04-10T11:10:20.000Z"
+                  }
+        

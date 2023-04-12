@@ -1,0 +1,28 @@
+{
+  "configs": [
+    "global-error-handler.xml",
+    "common-health-flow.xml",
+    "openlogix-common-library.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.openlogix:openlogix-common-library:1.0.1-SNAPSHOT",
+  "minMuleVersion": "4.4.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "common-health-flow.xml",
+        "global-error-handler.xml",
+        "log4j2.xml",
+        "openlogix-common-library.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
